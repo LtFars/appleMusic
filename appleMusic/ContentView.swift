@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.colorScheme) var colorScheme
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text(colorScheme == .dark ? "In dark mode" : "In light mode")
     }
 }
 
