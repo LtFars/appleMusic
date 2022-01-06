@@ -11,10 +11,12 @@ struct LibraryView: View {
     var body: some View {
         NavigationView {
             TabView {
-                ScrollView {
-                    Text("Ищите свою музыку?")
-                    Text("Здесь появится пленная Вамив iTunes Store музыка")
-                }
+//                ScrollView {
+                    VStack {
+                        Text("Ищите свою музыку?")
+                        Text("Здесь появится пленная Вамив iTunes Store музыка")
+                    }
+//                }
                 .tabItem {
                     Image(systemName: "rectangle.stack.badge.play")
                 }
