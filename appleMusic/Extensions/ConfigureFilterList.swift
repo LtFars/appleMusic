@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension FilterView {
+extension MainView {
     
     func getData() -> [FilterModel] {
         [FilterModel(icons: "music.note.list", name: "Плейлисты"),
