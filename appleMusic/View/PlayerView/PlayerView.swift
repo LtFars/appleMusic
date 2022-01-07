@@ -14,7 +14,6 @@ struct PlayerView: View {
             HStack {
                 Image("SongPicture")
                     .resizable()
-//                    .background(.gray)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .frame(width: 65, height: 65, alignment: .leading)
                     .shadow(color: .gray, radius: 5, x: 5, y: 5)
