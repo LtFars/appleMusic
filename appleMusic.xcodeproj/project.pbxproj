@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		033AB98C2787125B002A6FF9 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB98B2787125B002A6FF9 /* LibraryView.swift */; };
-		033AB98E2787131D002A6FF9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB98D2787131D002A6FF9 /* Player.swift */; };
+		033AB98E2787131D002A6FF9 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB98D2787131D002A6FF9 /* PlayerView.swift */; };
 		03F5AFF22759184400AF14E2 /* appleMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F5AFF12759184400AF14E2 /* appleMusicApp.swift */; };
 		03F5AFF42759184400AF14E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F5AFF32759184400AF14E2 /* ContentView.swift */; };
 		03F5AFF62759184700AF14E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F5AFF52759184700AF14E2 /* Assets.xcassets */; };
@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		033AB98B2787125B002A6FF9 /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
-		033AB98D2787131D002A6FF9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		033AB98D2787131D002A6FF9 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		03F5AFEE2759184400AF14E2 /* appleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F5AFF12759184400AF14E2 /* appleMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleMusicApp.swift; sourceTree = "<group>"; };
 		03F5AFF32759184400AF14E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				033AB98B2787125B002A6FF9 /* LibraryView.swift */,
-				033AB98D2787131D002A6FF9 /* Player.swift */,
+				033AB98D2787131D002A6FF9 /* PlayerView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				033AB98E2787131D002A6FF9 /* Player.swift in Sources */,
+				033AB98E2787131D002A6FF9 /* PlayerView.swift in Sources */,
 				03F5AFF42759184400AF14E2 /* ContentView.swift in Sources */,
 				033AB98C2787125B002A6FF9 /* LibraryView.swift in Sources */,
 				03F5AFF22759184400AF14E2 /* appleMusicApp.swift in Sources */,

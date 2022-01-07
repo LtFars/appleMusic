@@ -12,12 +12,10 @@ struct LibraryView: View {
         NavigationView {
             ZStack {
                 TabView {
-    //                ScrollView {
-                        VStack {
-                            Text("Ищите свою музыку?")
-                            Text("Здесь появится пленная Вамив iTunes Store музыка")
-                        }
-    //                }
+                    VStack {
+                        Text("Ищите свою музыку?")
+                        Text("Здесь появится пленная Вамив iTunes Store музыка")
+                    }
                     .tabItem {
                         Image(systemName: "rectangle.stack.badge.play")
                     }
@@ -40,8 +38,8 @@ struct LibraryView: View {
                 .navigationBarItems(
                     trailing: Button("Править") {}
                                 .foregroundColor(.red))
-                PlayerView()
-//                    .padding()
+//                PlayerView()
+//                    padding(.bottom, 60)
             }
         }
     }
