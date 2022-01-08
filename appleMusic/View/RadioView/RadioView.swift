@@ -9,9 +9,22 @@ import SwiftUI
 
 struct RadioView: View {
     var body: some View {
-        VStack {
-            HorizontalRadioView()
-            VerticalRadioView()
+        NavigationView {
+            VStack(alignment: .leading) {
+                Divider()
+                Text("Эксклюзив")
+                    .font(.caption)
+                    .foregroundColor(.gray)
+                Text("Rammstein")
+                    .font(.title3)
+                HorizontalRadioView()
+                    .frame(height: 250)
+                Spacer()
+                VerticalRadioView()
+                Spacer()
+            }
+            .padding(.leading)
+            .navigationTitle("Радио")
         }
     }
 }
