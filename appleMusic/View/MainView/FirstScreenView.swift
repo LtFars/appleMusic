@@ -13,7 +13,7 @@ struct FirstScreenView: View {
             Text("Ищите свою музыку?")
                 .font(.title)
                 .bold()
-            Text("Здесь появится пленная Вамив iTunes Store музыка")
+            Text("Здесь появится купленная Вами в iTunes Store музыка")
                 .font(.title3)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)

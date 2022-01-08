@@ -13,7 +13,7 @@ struct MainView: View {
     
     var body: some View {
         NavigationView {
-            ScreenView
+            screenView
                 .navigationTitle("Медиатека")
                 .navigationBarItems(trailing:
                                         Button(action: { mainScreen.toggle() }, label: { Text(labelChange()) }))
@@ -21,7 +21,7 @@ struct MainView: View {
         }
     }
     
-    @ViewBuilder private var ScreenView: some View {
+    @ViewBuilder private var screenView: some View {
         if mainScreen {
             FirstScreenView()
         } else {
