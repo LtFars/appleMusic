@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033AB98C2787125B002A6FF9 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB98B2787125B002A6FF9 /* LibraryView.swift */; };
+		033AB98E2787131D002A6FF9 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB98D2787131D002A6FF9 /* PlayerView.swift */; };
+		033AB9972788880B002A6FF9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB9962788880B002A6FF9 /* MainView.swift */; };
+		033AB99A278888FC002A6FF9 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB999278888FC002A6FF9 /* RadioView.swift */; };
+		033AB99D27888DAE002A6FF9 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB99C27888DAE002A6FF9 /* FilterView.swift */; };
+		033AB99F27888E5D002A6FF9 /* FirstScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB99E27888E5D002A6FF9 /* FirstScreenView.swift */; };
+		033AB9A127888FAF002A6FF9 /* FilterIconsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB9A027888FAF002A6FF9 /* FilterIconsModel.swift */; };
+		033AB9A4278892D2002A6FF9 /* ConfigureFilterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB9A3278892D2002A6FF9 /* ConfigureFilterList.swift */; };
+		033AB9A62789CE56002A6FF9 /* HorizontalRadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB9A52789CE56002A6FF9 /* HorizontalRadioView.swift */; };
+		033AB9A82789CE65002A6FF9 /* VerticalRadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AB9A72789CE65002A6FF9 /* VerticalRadioView.swift */; };
 		03F5AFF22759184400AF14E2 /* appleMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F5AFF12759184400AF14E2 /* appleMusicApp.swift */; };
 		03F5AFF42759184400AF14E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F5AFF32759184400AF14E2 /* ContentView.swift */; };
 		03F5AFF62759184700AF14E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F5AFF52759184700AF14E2 /* Assets.xcassets */; };
@@ -14,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033AB98B2787125B002A6FF9 /* LibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		033AB98D2787131D002A6FF9 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		033AB9962788880B002A6FF9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		033AB999278888FC002A6FF9 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		033AB99C27888DAE002A6FF9 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		033AB99E27888E5D002A6FF9 /* FirstScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenView.swift; sourceTree = "<group>"; };
+		033AB9A027888FAF002A6FF9 /* FilterIconsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterIconsModel.swift; sourceTree = "<group>"; };
+		033AB9A3278892D2002A6FF9 /* ConfigureFilterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureFilterList.swift; sourceTree = "<group>"; };
+		033AB9A52789CE56002A6FF9 /* HorizontalRadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalRadioView.swift; sourceTree = "<group>"; };
+		033AB9A72789CE65002A6FF9 /* VerticalRadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalRadioView.swift; sourceTree = "<group>"; };
 		03F5AFEE2759184400AF14E2 /* appleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F5AFF12759184400AF14E2 /* appleMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleMusicApp.swift; sourceTree = "<group>"; };
 		03F5AFF32759184400AF14E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +52,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033AB98F2787143E002A6FF9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				03F5AFF12759184400AF14E2 /* appleMusicApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		033AB99027871458002A6FF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				033AB99B27888D9F002A6FF9 /* FilterView */,
+				033AB998278888D1002A6FF9 /* RadioView */,
+				033AB995278887F8002A6FF9 /* MainView */,
+				033AB9942788877F002A6FF9 /* PlayerView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		033AB99127871463002A6FF9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				033AB98B2787125B002A6FF9 /* LibraryView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		033AB9922787146C002A6FF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				033AB9A027888FAF002A6FF9 /* FilterIconsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		033AB9942788877F002A6FF9 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				033AB98D2787131D002A6FF9 /* PlayerView.swift */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		033AB995278887F8002A6FF9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				033AB9962788880B002A6FF9 /* MainView.swift */,
+				033AB99E27888E5D002A6FF9 /* FirstScreenView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		033AB998278888D1002A6FF9 /* RadioView */ = {
+			isa = PBXGroup;
+			children = (
+				033AB999278888FC002A6FF9 /* RadioView.swift */,
+				033AB9A52789CE56002A6FF9 /* HorizontalRadioView.swift */,
+				033AB9A72789CE65002A6FF9 /* VerticalRadioView.swift */,
+			);
+			path = RadioView;
+			sourceTree = "<group>";
+		};
+		033AB99B27888D9F002A6FF9 /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				033AB99C27888DAE002A6FF9 /* FilterView.swift */,
+			);
+			path = FilterView;
+			sourceTree = "<group>";
+		};
+		033AB9A2278892AF002A6FF9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				033AB9A3278892D2002A6FF9 /* ConfigureFilterList.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		03F5AFE52759184400AF14E2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +149,11 @@
 		03F5AFF02759184400AF14E2 /* appleMusic */ = {
 			isa = PBXGroup;
 			children = (
-				03F5AFF12759184400AF14E2 /* appleMusicApp.swift */,
-				03F5AFF32759184400AF14E2 /* ContentView.swift */,
+				033AB98F2787143E002A6FF9 /* App */,
+				033AB99027871458002A6FF9 /* View */,
+				033AB9922787146C002A6FF9 /* Models */,
+				033AB99127871463002A6FF9 /* Modules */,
+				033AB9A2278892AF002A6FF9 /* Extensions */,
 				03F5AFF52759184700AF14E2 /* Assets.xcassets */,
 				03F5AFF72759184700AF14E2 /* Preview Content */,
 			);
@@ -62,6 +163,7 @@
 		03F5AFF72759184700AF14E2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				03F5AFF32759184400AF14E2 /* ContentView.swift */,
 				03F5AFF82759184700AF14E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -137,7 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033AB9A4278892D2002A6FF9 /* ConfigureFilterList.swift in Sources */,
+				033AB99D27888DAE002A6FF9 /* FilterView.swift in Sources */,
+				033AB9A82789CE65002A6FF9 /* VerticalRadioView.swift in Sources */,
+				033AB99A278888FC002A6FF9 /* RadioView.swift in Sources */,
+				033AB98E2787131D002A6FF9 /* PlayerView.swift in Sources */,
+				033AB99F27888E5D002A6FF9 /* FirstScreenView.swift in Sources */,
+				033AB9A127888FAF002A6FF9 /* FilterIconsModel.swift in Sources */,
+				033AB9A62789CE56002A6FF9 /* HorizontalRadioView.swift in Sources */,
 				03F5AFF42759184400AF14E2 /* ContentView.swift in Sources */,
+				033AB98C2787125B002A6FF9 /* LibraryView.swift in Sources */,
+				033AB9972788880B002A6FF9 /* MainView.swift in Sources */,
 				03F5AFF22759184400AF14E2 /* appleMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +389,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +419,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
