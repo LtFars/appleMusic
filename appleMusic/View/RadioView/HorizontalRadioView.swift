@@ -11,19 +11,18 @@ struct HorizontalRadioView: View {
     
     private let albums = RadioView().getAlbums()
     
-    private let gridItems = [
+    private let rows = [
         GridItem(.fixed(300))
     ]
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            LazyHGrid(rows: gridItems) {
+            LazyHGrid(rows: rows) {
                 ForEach(albums, id: \.self) { album in
-                    VStack {
+                    VStack(alignment: .leading) {
                         Text(album.name)
                             .foregroundColor(.gray)
                             .font(.callout)
-                            .padding()
                         album.image
                             .resizable()
                             .frame(width: 300, height: 225, alignment: .leading)

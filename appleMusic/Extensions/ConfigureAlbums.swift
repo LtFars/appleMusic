@@ -11,9 +11,9 @@ import SwiftUI
 extension RadioView {
     
     func getAlbums() -> [Albums] {
-        [Albums(name: "Reise, Reise", albumName: "Album1"),
-         Albums(name: "Liebe ist fur alle da", albumName: "Album2"),
-         Albums(name: "Rosenrot", albumName: "Album3")
+        [Albums(name: "Reise, Reise", albumImageName: "Album1"),
+         Albums(name: "Liebe ist fur alle da", albumImageName: "Album2"),
+         Albums(name: "Rosenrot", albumImageName: "Album3")
         ]
     }
 }

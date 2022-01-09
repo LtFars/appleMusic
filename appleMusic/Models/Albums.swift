@@ -10,9 +10,9 @@ import SwiftUI
 
 struct Albums: Hashable {
     let name: String
-    var albumName: String
+    var albumImageName: String
 
     var image: Image {
-        Image(albumName)
+        Image(albumImageName)
     }
 }

@@ -8,23 +8,41 @@
 import SwiftUI
 
 struct RadioView: View {
+    
+    init() {
+        UITabBar.appearance().isTranslucent = true
+        UITabBar.appearance().backgroundColor = UIColor.systemGray5
+    }
+    
+    private let columns = [
+        GridItem(.flexible())
+    ]
+    
     var body: some View {
         NavigationView {
-            VStack(alignment: .leading) {
-                Divider()
-                Text("Эксклюзив")
-                    .font(.caption)
-                    .foregroundColor(.gray)
-                Text("Rammstein")
-                    .font(.title3)
-                HorizontalRadioView()
-                    .frame(height: 250)
-                Spacer()
-                VerticalRadioView()
-                Spacer()
+            ScrollView(.vertical, showsIndicators: true) {
+                VStack(alignment: .leading) {
+                    Divider()
+                    Text("Эксклюзив")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                    Text("Rammstein")
+                        .font(.title3)
+                    HorizontalRadioView()
+                        .frame(height: 260)
+                    Divider()
+                        .padding(.leading)
+                    Text("Станции")
+                        .font(.title)
+                        .bold()
+                    LazyVGrid(columns: columns, alignment: .leading) {
+                        VerticalRadioView()
+                    }
+                    .frame(height: 1200)
+                }
+                .padding(.leading)
+                .navigationTitle("Радио")
             }
-            .padding(.leading)
-            .navigationTitle("Радио")
         }
     }
 }
