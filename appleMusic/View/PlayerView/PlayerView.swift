@@ -15,8 +15,9 @@ struct PlayerView: View {
                 Image("SongPicture")
                     .resizable()
                     .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .frame(width: 65, height: 65, alignment: .leading)
+                    .frame(width: 60, height: 60, alignment: .leading)
                     .shadow(color: .gray, radius: 5, x: 5, y: 5)
+                    .padding(.horizontal)
                 Text("Singer - Song")
                     .foregroundColor(.black)
                 Spacer()
@@ -28,12 +29,14 @@ struct PlayerView: View {
                     Image(systemName: "forward.fill")
                         .foregroundColor(.black)
                 }
+                .padding(.horizontal)
             }
-            .padding(.horizontal, 20)
-            .frame(height: 65)
+            .frame(height: 70)
+            .background(Color(UIColor.systemGray5))
+            .padding(.horizontal, 0)
             Divider()
+                .padding(.top, -10)
         }
-        
     }
 }
 

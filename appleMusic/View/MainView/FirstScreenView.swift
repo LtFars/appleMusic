@@ -14,6 +14,7 @@ struct FirstScreenView: View {
                 .font(.title)
                 .bold()
             Text("Здесь появится купленная Вами в iTunes Store музыка")
+                .padding(.horizontal)
                 .font(.title3)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
