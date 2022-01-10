@@ -33,7 +33,8 @@ struct VerticalRadioView: View {
                     Divider()
                         .padding(.top, 15)
                 }
-                .frame(width: 300, height: 90)
+//                .frame(width: 300, height: 90)
+//                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 50)
             }
             .frame(height: 90)
         }

@@ -31,14 +31,16 @@ struct RadioView: View {
                     HorizontalRadioView()
                         .frame(height: 260)
                     Divider()
-                        .padding(.leading)
                     Text("Станции")
                         .font(.title)
                         .bold()
                     LazyVGrid(columns: columns, alignment: .leading) {
-                        VerticalRadioView()
+                        VStack {
+                            VerticalRadioView()
+                        }
+                        .frame(height: 1330)
+                        .padding(.top, -70)
                     }
-                    .frame(height: 1200)
                 }
                 .padding(.leading)
                 .navigationTitle("Радио")
