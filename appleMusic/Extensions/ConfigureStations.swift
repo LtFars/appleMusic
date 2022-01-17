@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SwiftUI
 
 extension RadioView {
     
@@ -15,14 +14,14 @@ extension RadioView {
          Stations(name: "Популярное", descriprion: "Электронная медитация", stationImageName: "Station2"),
          Stations(name: "Для расслабления",  descriprion: "Выдающиеся образцы жанра", stationImageName: "Station3"),
          Stations(name: "Классика", descriprion: "То, что слушают прямо сейчас", stationImageName: "Station1"),
-          Stations(name: "Популярное", descriprion: "Электронная медитация", stationImageName: "Station2"),
+         Stations(name: "Популярное", descriprion: "Электронная медитация", stationImageName: "Station2"),
          Stations(name: "Для расслабления",  descriprion: "Выдающиеся образцы жанра", stationImageName: "Station3"),
          Stations(name: "Классика", descriprion: "То, что слушают прямо сейчас", stationImageName: "Station1"),
-          Stations(name: "Популярное", descriprion: "Электронная медитация", stationImageName: "Station2"),
-          Stations(name: "Для расслабления",  descriprion: "Выдающиеся образцы жанра", stationImageName: "Station3"),
+         Stations(name: "Популярное", descriprion: "Электронная медитация", stationImageName: "Station2"),
+         Stations(name: "Для расслабления",  descriprion: "Выдающиеся образцы жанра", stationImageName: "Station3"),
          Stations(name: "Классика", descriprion: "То, что слушают прямо сейчас", stationImageName: "Station1"),
-          Stations(name: "Популярное", descriprion: "Электронная медитация", stationImageName: "Station2"),
-          Stations(name: "Для расслабления",  descriprion: "Выдающиеся образцы жанра", stationImageName: "Station3")
+         Stations(name: "Популярное", descriprion: "Электронная медитация", stationImageName: "Station2"),
+         Stations(name: "Для расслабления",  descriprion: "Выдающиеся образцы жанра", stationImageName: "Station3")
         ]
     }
 }
