@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct LibraryView: View {
+    
+    init() {
+        UITabBar.appearance().barTintColor = UIColor.systemGray5
+        UITabBar.appearance().isTranslucent = true // а не работает почему-то, кайф
+    }
+    
     var body: some View {
         ZStack {
             TabView {
@@ -21,7 +27,7 @@ struct LibraryView: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
-                Text("Поиск")
+                SearchView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Поиск")
@@ -29,7 +35,7 @@ struct LibraryView: View {
             }
             .accentColor(.red)
                 PlayerView()
-                    .padding(.bottom, 60)
+                    .padding(.bottom, 40)
         }
     }
 }
